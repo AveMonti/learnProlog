@@ -61,3 +61,28 @@ $ ppx([1,2,3,[4,5],6,7],0).
 > 7
 
 ```
+### Write Canonical
+```
+$ gprolog
+$ write(a+b*c*c), nl, write_canonical(a+b*c*c),nl.
+
+>> a+b*c*c
+>> +(a,*(*(b,c),c))
+```
+
+### Write Characters
+```
+$ gprolog
+$ put_char('h'),put_char('e'),put_char('l'),put_char('l'),put_char('o').
+>> hello
+$ put_char('h'),put_char('i'),nl,put_char(':'),put_char(')').
+>> hi
+>> :)
+```
+
+### Open and closing streams
+```
+$ open('event.pl',read,X).
+
+
+```
