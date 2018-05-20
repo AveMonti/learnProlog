@@ -26,3 +26,14 @@ $ | ?- person(X,2.03,_,_,_).
 X = mateusz?;
 X = ktos1?;
 ```
+
+## Third:
+```
+$ gprolog
+$ [third].
+$ find_position.
+>> Whose position do you want to know?
+$ "Horz".
+>> Algorythm master
+
+```
