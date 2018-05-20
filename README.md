@@ -37,3 +37,13 @@ $ "Horz".
 >> Algorythm master
 
 ```
+## Fourth:
+```
+$ gprolog
+$ [fourth].
+$ go.
+$ 5.
+$ 9.
+>> Y is Bigger than value
+
+```
