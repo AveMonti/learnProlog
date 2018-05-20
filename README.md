@@ -1,6 +1,6 @@
 ## Prolog
 
-* first:
+## First:
 ```
 #In
 $ gprolog
