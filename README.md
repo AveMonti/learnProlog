@@ -16,3 +16,13 @@ $ | (1 ms) No
 X = michal ?;
 X = adam
 ```
+## Secound:
+```
+$ gprolog
+$ [secound].
+## WE ARE LOOKING FOR PEOPLE WITH HEIGHT 2.03 m
+$ | ?- person(X,2.03,_,_,_).
+#Out
+X = mateusz?;
+X = ktos1?;
+```
