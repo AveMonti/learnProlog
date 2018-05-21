@@ -82,7 +82,17 @@ $ put_char('h'),put_char('i'),nl,put_char(':'),put_char(')').
 
 ### Open and closing streams
 ```
-$ open('event.pl',read,X).
+program :-
+  open('iu.pl',read,X),
+  close(X).
 
+```
+
+### Sixth
+```
+$ gprolog
+$ [sixth].
+$ process('houses.txt').
+>> gryffindor'.''\n'hufflepuff'\n'ravenclaw'.''\n'slytherin'.''\n'
 
 ```
