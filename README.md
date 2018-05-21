@@ -96,3 +96,11 @@ $ process('houses.txt').
 >> gryffindor'.''\n'hufflepuff'\n'ravenclaw'.''\n'slytherin'.''\n'
 
 ```
+
+## Seventh
+```
+$ gprolog
+$ [seventh].
+$ writefacts.
+
+```
